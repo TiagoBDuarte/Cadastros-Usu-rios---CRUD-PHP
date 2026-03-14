@@ -50,6 +50,7 @@ VALUES('$nome','$email','$naturalidade','$rg','$profissao')
 }
 
 pg_query($conexao,$query);
+
 /*limpa os campos após o insert*/
 $nome = "";
 $email = "";
@@ -57,6 +58,10 @@ $naturalidade = "";
 $rg = "";
 $profissao = "";
 $id = "";
+
+/*redireciona para evitar repost*/
+header("Location: index.php");
+exit;
 
 }
 
