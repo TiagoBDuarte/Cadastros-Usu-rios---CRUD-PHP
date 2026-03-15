@@ -1,5 +1,5 @@
 <?php
-
+/*Arquivo principal que irá incluir toda a estrutura*/
 $conexao = pg_connect("host=localhost dbname=usuarios  user=postgres  password=1928");
 
 if(!$conexao){
