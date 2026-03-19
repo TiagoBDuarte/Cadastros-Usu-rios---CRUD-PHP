@@ -27,11 +27,12 @@
 <h1>Cadastro de Usuários</h1>
 
 
-<?php
+<?php 
 #formulario de preenchimento esta na pasta views/formulario.php
     include "views/formulario.php";
+   
 
-#formulario de preenchimento esta na pasta views/tabela.php
-    include"views/tabela.php";
+#formulario de preenchimento esta na pasta views/tabela.php 
+   # include "views/tabela.php";*/
 
-?>
+?> 
