@@ -1,4 +1,8 @@
-<?php
+<a href="gestor.php">
+    <button type="button">Acesso Gestor</button>
+</a>
+
+<?php 
 /*Arquivo principal que irá incluir toda a estrutura*/
 
 

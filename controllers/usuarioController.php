@@ -76,8 +76,8 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
 
     # Redireciona para a pagina principal.
     # Isso evita reenviar o formulario ao atualizar a pagina.
-    header("Location: index.php");
-    exit;
+    #header("Location: index.php");
+    #exit;
 }
 
 # =========================================================
@@ -103,8 +103,8 @@ if(isset($_GET['delete'])){
 
     # Redireciona apos a tentativa de exclusao para limpar a URL
     # e evitar repetir a acao se a pagina for recarregada.
-    header("Location: index.php");
-    exit;
+    #header("Location: index.php");
+    #exit;
 }
 
 # =========================================================
