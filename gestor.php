@@ -1,3 +1,19 @@
+<?php
+
+
+/*Arquivo principal que irá incluir toda a estrutura*/
+
+
+    include "config/config.php";
+
+    #Esta em controllers/usuarioController.php
+
+    include "controllers/usuarioController.php";
+
+
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,18 +33,8 @@
 <h1>Pagina Gestor</h1>
 
 
-
 <?php
 
-
-/*Arquivo principal que irá incluir toda a estrutura*/
-
-
-    include "config/config.php";
-
-    #Esta em controllers/usuarioController.php
-
-    include "controllers/usuarioController.php";
 
 #formulario de preenchimento esta na pasta views/tabela.php
     include "views/tabela.php";

@@ -33,7 +33,7 @@
 <td class="acoes">
 
 <!--Excluir-->
-<a href="index.php?delete=<?php echo $row['id'];?>">
+<a href="gestor.php?delete=<?php echo $row['id'];?>">
     <button class="excluir">Excluir</button>
 </a>
 <!------------------------------------->
@@ -41,7 +41,7 @@
 
 <!--Editar-->
 
-<a href="index.php?edit=<?php echo $row['id']?>">
+<a href="gestor.php?edit=<?php echo $row['id']?>">
     <button class="editar">Editar</button>
 </a>
 <!------------------------------------->
